@@ -5,59 +5,11 @@
 	},
 	"extensionsUsed":[
 		"KHR_draco_mesh_compression",
-		"KHR_lights_punctual",
 		"KHR_materials_specular"
 	],
 	"extensionsRequired":[
-		"KHR_draco_mesh_compression",
-		"KHR_lights_punctual"
+		"KHR_draco_mesh_compression"
 	],
-	"extensions":{
-		"KHR_lights_punctual":{
-			"lights":[
-				{
-					"color":[
-						1,
-						1,
-						1
-					],
-					"intensity":271.7570653294113,
-					"type":"point",
-					"name":"Light"
-				},
-				{
-					"color":[
-						1,
-						1,
-						1
-					],
-					"intensity":271.7570653294113,
-					"type":"point",
-					"name":"Light.001"
-				},
-				{
-					"color":[
-						1,
-						1,
-						1
-					],
-					"intensity":271.7570653294113,
-					"type":"point",
-					"name":"Light.002"
-				},
-				{
-					"color":[
-						1,
-						1,
-						1
-					],
-					"intensity":271.7570653294113,
-					"type":"point",
-					"name":"Light.003"
-				}
-			]
-		}
-	},
 	"scene":0,
 	"scenes":[
 		{
@@ -65,91 +17,11 @@
 			"nodes":[
 				0,
 				1,
-				2,
-				3,
-				4,
-				5,
-				6
+				2
 			]
 		}
 	],
 	"nodes":[
-		{
-			"extensions":{
-				"KHR_lights_punctual":{
-					"light":0
-				}
-			},
-			"name":"Light",
-			"rotation":[
-				-0.28416627645492554,
-				0.7269423007965088,
-				0.34203392267227173,
-				0.5232754945755005
-			],
-			"translation":[
-				-0.06814336776733398,
-				0.1288515329360962,
-				-2.200300693511963
-			]
-		},
-		{
-			"extensions":{
-				"KHR_lights_punctual":{
-					"light":1
-				}
-			},
-			"name":"Light.001",
-			"rotation":[
-				-0.28416627645492554,
-				0.7269423007965088,
-				0.34203392267227173,
-				0.5232754945755005
-			],
-			"translation":[
-				-0.06814336776733398,
-				0.20488694310188293,
-				2.902430534362793
-			]
-		},
-		{
-			"extensions":{
-				"KHR_lights_punctual":{
-					"light":2
-				}
-			},
-			"name":"Light.002",
-			"rotation":[
-				-0.28416627645492554,
-				0.7269423007965088,
-				0.34203392267227173,
-				0.5232754945755005
-			],
-			"translation":[
-				-0.06814336776733398,
-				3.075735330581665,
-				0.01999729871749878
-			]
-		},
-		{
-			"extensions":{
-				"KHR_lights_punctual":{
-					"light":3
-				}
-			},
-			"name":"Light.003",
-			"rotation":[
-				-0.28416627645492554,
-				0.7269423007965088,
-				0.34203392267227173,
-				0.5232754945755005
-			],
-			"translation":[
-				-0.06814336776733398,
-				-1.5315461158752441,
-				0.01999729871749878
-			]
-		},
 		{
 			"mesh":0,
 			"name":"Details1",
@@ -202,21 +74,21 @@
 				{
 					"sampler":0,
 					"target":{
-						"node":4,
+						"node":0,
 						"path":"translation"
 					}
 				},
 				{
 					"sampler":1,
 					"target":{
-						"node":4,
+						"node":0,
 						"path":"rotation"
 					}
 				},
 				{
 					"sampler":2,
 					"target":{
-						"node":4,
+						"node":0,
 						"path":"scale"
 					}
 				}
@@ -245,21 +117,21 @@
 				{
 					"sampler":0,
 					"target":{
-						"node":5,
+						"node":1,
 						"path":"translation"
 					}
 				},
 				{
 					"sampler":1,
 					"target":{
-						"node":5,
+						"node":1,
 						"path":"rotation"
 					}
 				},
 				{
 					"sampler":2,
 					"target":{
-						"node":5,
+						"node":1,
 						"path":"scale"
 					}
 				}
@@ -288,21 +160,21 @@
 				{
 					"sampler":0,
 					"target":{
-						"node":6,
+						"node":2,
 						"path":"translation"
 					}
 				},
 				{
 					"sampler":1,
 					"target":{
-						"node":6,
+						"node":2,
 						"path":"rotation"
 					}
 				},
 				{
 					"sampler":2,
 					"target":{
-						"node":6,
+						"node":2,
 						"path":"scale"
 					}
 				}
