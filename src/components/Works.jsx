@@ -29,7 +29,11 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img src={"https://lohitcdn.blob.core.windows.net/portfoliocdn/Etc/github.png"} alt="source code" className="w-1/2 h-1/2 object-contain" />
+              <img
+                src={"https://juliosalvat.com/img/jslogo.png"}
+                alt="source code"
+                className="w-1/2 h-1/2 object-contain"
+              />
             </div>
           </div>
         </div>
@@ -57,7 +61,10 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
       <div className="w-full flex">
-        <motion.p variants={fadeIn("", "", 0.1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        <motion.p
+          variants={fadeIn("", "", 0.1)}
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        >
           Following projects showcase my skills and experience through examples
           of my work. Each project is briefly described with links to code
           repositories in it.

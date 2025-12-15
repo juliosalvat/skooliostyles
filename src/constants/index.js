@@ -14,74 +14,117 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech-Stack/C.png" },
-  { title: "C++", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech-Stack/CPP.png" },
-  { title: "Python", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech-Stack/Python.png" },
-  { title: "Java", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech-Stack/Java.png" },
+  {
+    title: "HTML 5",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    title: "CSS 3",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  },
+  {
+    title: "JavaScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    title: "Python",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+  },
 ];
 
 export const technologies = [
-  { name: "HTML 5", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/HTML.png" },
-  { name: "CSS 3", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/CSS.png" },
-  { name: "JavaScript", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/Javascript.png" },
-  { name: "Rect JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/ReactJS.png" },
-  { name: "Tailwind CSS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/TailwindCSS.png" },
-  { name: "Node JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/NodeJS.png" },
-  { name: "Three JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/ThreeJS.png" },
-  { name: "git", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/Git.png" },
+  {
+    name: "HTML 5",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    name: "CSS 3",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  },
+  {
+    name: "JavaScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    name: "React JS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+  },
+  {
+    name: "Node JS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+  },
+  {
+    name: "Three JS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg",
+  },
 ];
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Experiences/EduSkill.png",
+    title: "CTO",
+    company_name: "Skywest Digital",
+    icon: "https://juliosalvat.com/img/logo-green-1x.png",
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "2018 - Present",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Develop and implement a strategic technology roadmap that aligns with the organization's vision and mission, leveraging innovative solutions to address current and future business requirements.",
+      " Lead the ideation, design, and development of advanced products and services, ensuring alignment with emerging technological trends. Drive initiatives to position the company as a market leader by delivering cutting-edge solutions that maintain a competitive advantage.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Experiences/MathWorks.png",
+    title: "CTO",
+    company_name: "Tech Shock Marketing",
+    icon: "https://juliosalvat.com/img/logo-green-1x.png",
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "2014 - 2019",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "I was responsible for developing strategies to efficiently scale infrastructure and systems, ensuring maximum reliability, performance, and uptime. This included identifying, negotiating with, and managing technology partners and vendors to enhance internal capabilities and meet business needs. ",
+      " Additionally, I provided regular reports on technology-related metrics, progress, and achievements to the executive team and other stakeholders.",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Experiences/Edunet.png",
+    title: "Senior User Experience Designer",
+    company_name: "Media Direct",
+    icon: "https://juliosalvat.com/img/logo-green-1x.png",
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "2011 - 2014",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "I served as the lead designer and front-end developer for an app company specializing in creating an online, free social media platform. ",
+      "This platform allowed users to develop native iOS and Android applications, which were submitted for approval under the company’s developer account.",
+      " I was solely responsible for all design work, including websites, icons, logos, and other custom design requests as required.",
+    ],
+  },
+  {
+    title: "UIUX Designer & 3D Animator",
+    company_name: "Auxilium Studios",
+    icon: "https://juliosalvat.com/img/logo-green-1x.png",
+    iconBg: "#161329",
+    date: "2011 - 2014",
+    points: [
+      "Upon graduating from college, I joined a dynamic company where I contributed to a wide range of creative projects, including media, animation, print, and web design.",
+      "My role encompassed diverse responsibilities, enabling me to engage in various aspects of the creative process and refine my skills while fostering a deep passion for design across multiple platforms.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "CFCSE",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "THE EXPERTS IN INFORMATION SECURITY AND TECHNOLOGY RECRUITMENT",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "HTML", color: "green-text-gradient" },
       { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "PHP", color: "pink-text-gradient" },
+      { name: "MySQL", color: "pink-text-gradient" },
     ],
-    image: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Projects/WeatherPedia.png",
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    image: "https://juliosalvat.com/img/nat-1-large.jpg",
+    source_code_link: "https://cfcse.co",
   },
   {
     name: "Terminal Like Portfolio Website",
@@ -92,7 +135,7 @@ export const projects = [
       { name: "css", color: "green-text-gradient" },
       { name: "Javascript", color: "pink-text-gradient" },
     ],
-    image: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Projects/TerminalPW.png",
+    image: "https://juliosalvat.com/img/nat-1-large.jpg",
     source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
   },
   {
@@ -104,7 +147,7 @@ export const projects = [
       { name: "Jupyter Notebook", color: "green-text-gradient" },
       { name: "Regression Algorithms", color: "pink-text-gradient" },
     ],
-    image: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Projects/MHFT.png",
+    image: "https://juliosalvat.com/img/nat-1-large.jpg",
     source_code_link:
       "https://github.com/lohitkolluri/mental_health_fitness_tracker",
   },
@@ -112,10 +155,8 @@ export const projects = [
     name: "PayloadMaster",
     description:
       "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Projects/PayloadMaster.png",
+    tags: [{ name: "shell", color: "blue-text-gradient" }],
+    image: "https://juliosalvat.com/img/nat-1-large.jpg",
     source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
   },
   {
@@ -127,7 +168,7 @@ export const projects = [
       { name: "CSS", color: "green-text-gradient" },
       { name: "HTML", color: "pink-text-gradient" },
     ],
-    image: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Projects/CompileVortex.png",
+    image: "https://juliosalvat.com/img/nat-1-large.jpg",
     source_code_link: "https://github.com/lohitkolluri/CompileVortex",
   },
   {
@@ -139,7 +180,7 @@ export const projects = [
       { name: "Matplotlib", color: "green-text-gradient" },
       { name: "Python", color: "pink-text-gradient" },
     ],
-    image: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Projects/Sketcher.png", 
+    image: "https://juliosalvat.com/img/nat-1-large.jpg",
     source_code_link: "https://github.com/lohitkolluri/SketchiFy",
   },
 ];
